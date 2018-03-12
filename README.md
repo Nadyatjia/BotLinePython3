@@ -4,19 +4,19 @@ SELF BOT PYTHON3.
 -
 Cara Install Self Bot :
 ------
-Di Termux :
-- Ketik -> `pkg update`
-- Ketik -> `pkg install git`
-- Ketik -> `pkg install python2`
-- Ketik -> `pip2 install rsa`
-- Ketik -> `pip2 install thrift==0.9.3`
-- Ketik -> `pip2 install requests`
-- Ketik -> `pip2 install bs4`
-- Ketik -> `pip2 install gtts`
-- Ketik -> `pip2 install googletrans`
-- Ketik -> `git clone https://github.com/Nadyatjia/Chuckyfix`
-- Ketik -> `cd Chucky`
-- Ketik -> `python2 Chucky.py`
+- Ketik -> `apt update`
+- Ketik -> `apt install git`
+- Ketik -> `apt install python3`
+- Ketik -> `apt install pip3==python3`
+- Ketik -> `pip3 install rsa`
+- Ketik -> `pip3 install thrift==0.9.3`
+- Ketik -> `pip3 install requests`
+- Ketik -> `pip3 install bs4`
+- Ketik -> `pip3 install gtts`
+- Ketik -> `pip3 install googletrans`
+- Ketik -> `git clone https://github.com/Nadyatjia/BotLinePython3`
+- Ketik -> `cd BotLinePython3`
+- Ketik -> `python3 Nadyasb.py`
 
 Cara Menjalankan Bot Kembali :
 ------
