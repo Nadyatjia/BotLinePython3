@@ -11,37 +11,37 @@ from googletrans import Translator
 #==============================================================================#
 botStart = time.time()
 
-nadya = LINE()
+#nadya = LINE()
 #nadya = LINE("TOKEN KAMU")
-#nadya = LINE("Email","Password")
+nadya = LINE("il1li@outlook.com","123Qw123e")
 nadya.log("Auth Token : " + str(nadya.authToken))
 channelToken = nadya.getChannelResult()
 nadya.log("Channel Token : " + str(channelToken))
 
-ki = LINE()
+#ki = LINE()
 #ki = LINE("TOKEN KAMU")
-#ki = LINE("Email","Password")
+ki = LINE("l7o@outlook.com","123Qw123e")
 ki.log("Auth Token : " + str(ki.authToken))
 channelToken = ki.getChannelResult()
 ki.log("Channel Token : " + str(channelToken))
 
-ki2 = LINE()
+#ki2 = LINE()
 #ki2 = LINE("TOKEN KAMU")
-#ki2 = LINE("Email","Password")
+ki2 = LINE("e4g@outlook.com","123Qw123e")
 ki2.log("Auth Token : " + str(ki2.authToken))
 channelToken = ki2.getChannelResult()
 ki2.log("Channel Token : " + str(channelToken))
 
-ki3 = LINE()
+#ki3 = LINE()
 #ki3 = LINE("TOKEN KAMU")
-#ki3 = LINE("Email","Password")
+ki3 = LINE("aworkan@gmail.com","123Qw123e")
 ki3.log("Auth Token : " + str(ki3.authToken))
 channelToken = ki3.getChannelResult()
 ki3.log("Channel Token : " + str(channelToken))
 
-ki4 = LINE()
+#ki4 = LINE()
 #ki4 = LINE("TOKEN KAMU")
-#ki4 = LINE("Email","Password")
+ki4 = LINE("d7omew@gmail.com","123Qw123e")
 ki4.log("Auth Token : " + str(ki4.authToken))
 channelToken = ki4.getChannelResult()
 ki4.log("Channel Token : " + str(channelToken))
@@ -56,9 +56,9 @@ ki3MID = ki3.profile.mid
 ki4MID = ki4.profile.mid
 
 Bots = [nadyaMID,kiMID,ki2MID,ki3MID,ki4MID]
-creator = ["u14f64e139a3817afaabe27d237afb36b","u92e4326146a0bf296ca15846aa2a25f6"]
-Owner = ["u14f64e139a3817afaabe27d237afb36b"]
-admin = ["u14f64e139a3817afaabe27d237afb36b"]
+creator = ["u91d5d161e0935121e6217c9bd93410f0","u09a7e4b7c9b160e5382a391805b20957","ue30f597601dbead84804c31fa8f10175","u879d9932fe5db568f9f129d219267c42"]
+owner = ["u91d5d161e0935121e6217c9bd93410f0","u09a7e4b7c9b160e5382a391805b20957","ue30f597601dbead84804c31fa8f10175","u879d9932fe5db568f9f129d219267c42"]
+admin = ["u91d5d161e0935121e6217c9bd93410f0","u09a7e4b7c9b160e5382a391805b20957","ue30f597601dbead84804c31fa8f10175","u879d9932fe5db568f9f129d219267c42"]
 
 nadyaProfile = nadya.getProfile()
 kiProfile = ki.getProfile()
