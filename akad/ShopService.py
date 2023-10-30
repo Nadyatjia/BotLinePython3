@@ -38,7 +38,7 @@ class Iface(object):
         """
         pass
 
-    def buyMustbuyProduct(self, receiverMid, productId, messageTemplate, language, country, packageId, serialNumber):
+    def buyMustbuyProduct(self, receiverMid, productId, messageTemplate, language, country, packageId, serialNumber, size):
         """
         Parameters:
          - receiverMid
@@ -48,6 +48,7 @@ class Iface(object):
          - country
          - packageId
          - serialNumber
+         - size
         """
         pass
 
